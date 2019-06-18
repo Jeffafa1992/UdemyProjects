@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\Nicholas\Documents\UdemyProjects\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1503545728.index
+4273651555.index
+2727777599.index
+4170644486.index
+3581618401.index
