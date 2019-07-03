@@ -2,7 +2,10 @@ package com.revature.hibernate.demo.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 @Entity
@@ -10,6 +13,8 @@ import javax.persistence.Table;
 public class Student {
 	
 	@Id
+	@GeneratedValue(strategy=GenerationType.SEQUENCE,generator="stud_id")
+	@SequenceGenerator(name="stud_id", sequenceName="student_id",allocationSize=1)
 	@Column(name="id")
 	private int id;
 	
