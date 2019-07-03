@@ -19,4 +19,9 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+<fullyQualifiedTypeName name="javax.validation.Payload"/>
+<fullyQualifiedTypeName name="com.revature.springdemo.mvc.validation.CourseCode"/>
+<fullyQualifiedTypeName name="javax.validation.ConstraintValidator"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
 </qualifiedTypeNameHistroy>
